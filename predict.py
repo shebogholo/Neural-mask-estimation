@@ -9,6 +9,9 @@ import numpy as np
 import soundfile as sf
 import matplotlib.pyplot as pl
 
+import warnings
+warnings.filterwarnings('ignore')
+
 from beamformer import complexGMM_mvdr as cgmm
 from beamformer import complexGMM_mvdr_snr_selective as cgmm_snr
 from maskestimator import model, shaper, feature

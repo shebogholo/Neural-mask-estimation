@@ -23,7 +23,8 @@ from scipy.linalg import eigh
 from beamformer import complexGMM_mvdr as cgmm
 from beamformer import util
 from maskestimator import model, shaper, feature
-
+import warnings
+warnings.filterwarnings('ignore')
 
 
 

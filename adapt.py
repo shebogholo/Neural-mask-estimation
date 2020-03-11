@@ -8,6 +8,8 @@ Created on Wed Jul 26 19:29:57 2019
 import os
 import shutil
 
+import warnings
+warnings.filterwarnings('ignore')
 from maskestimator import model, shaper, adapt_model
 
 #==========================================

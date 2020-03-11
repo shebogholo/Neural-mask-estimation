@@ -20,6 +20,8 @@ import sys
 from maskestimator import model, shaper, feature, augment, util
 from tensorflow.keras.callbacks import TensorBoard
 
+import warnings
+warnings.filterwarnings('ignore')
 
 #==========================================
 # ANALYSIS PARAMETERS

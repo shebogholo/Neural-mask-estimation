@@ -16,6 +16,8 @@ import random
 import soundfile as sf
 import matplotlib.pyplot as pl
 import sys
+import warnings
+warnings.filterwarnings('ignore')
 
 from maskestimator import shaper, feature, augment
 

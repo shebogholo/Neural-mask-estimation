@@ -15,6 +15,8 @@ from beamformer import util
 from beamformer import complexGMM_mvdr_snr_selective as cgmm_snr
 from maskestimator import model, shaper, feature
 
+import warnings
+warnings.filterwarnings('ignore')
 
 def apply_range_norm(specs, min_val=0):
     specs = ((specs - np.min(specs)) / (np.max(specs) - np.min(specs))) * (1 - min_val) + min_val
